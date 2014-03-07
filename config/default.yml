@@ -1,15 +1,27 @@
-recipes:                                       # Configs are parsed and every list is appended to each other, chef handles order and de-duplication
-    global:                                    # Recipes mentioned under "global" are installed for all operating systems (we used to support linux, and may do so in the future)
+recipes:
+    global:
         - applications::create_var_chef_cache
-    mac_os_x:                                  # Recipes mentioned under "mac_os_x" are installed on OSX and OSX Server
-        - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
-        - nodejs::default                      # Installs nodejs and installs all nodejs packages mentioned in the nodejs:apps attribute
+    mac_os_x:
+        - homebrewalt::default
+        - nodejs::default
+        - drivers::xerox550
+        - osxdefaults::add_note_to_loginscreen
+        - osxdefaults::disable_auto-correct
+        - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
+        - osxdefaults::finder_small_sidebar_icon_size
+        - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
+        - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
+        - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
+        - osxdefaults::disable_resume_system-wide
+        - osxdefaults::save_screenshots_in_png_format
+        - osxdefaults::save_screenshots_to_the_desktop
 attributes:
+    drivers:
+        xerox: 172.18.19.67
+    osxdefaults:
+        loginmessage: Property of Kunstmaan NV - 016 300 780 - hello@kunstmaan.be
     homebrewalt:
-        apps:
-            - git
         cask_apps:
             - google-chrome
-    nodejs:
-        apps:
-            - bower
+            - firefox
+            - java

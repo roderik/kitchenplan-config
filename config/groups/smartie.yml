@@ -1,0 +1,9 @@
+recipes:
+    global:
+        - applications::kms
+attributes:
+    postfix:
+        domain: "kunstmaan.be"
+    homebrewalt:
+        cask_apps:
+            - slack
