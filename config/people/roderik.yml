@@ -40,6 +40,7 @@ attributes:
                 - airline: https://github.com/bling/vim-airline
                 - syntastic: git://github.com/scrooloose/syntastic.git
                 - nerdtree: https://github.com/scrooloose/nerdtree.git
+                - vim-css-color: https://github.com/ap/vim-css-color
     git:
         name: Roderik van der Veer
         email: roderik.van.der.veer@kunstmaan.be
