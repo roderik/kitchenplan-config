@@ -72,3 +72,4 @@ attributes:
     nodejs:
         apps:
             - pageres
+            - gh
