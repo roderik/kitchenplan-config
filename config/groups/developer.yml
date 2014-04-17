@@ -52,6 +52,7 @@ attributes:
             - git-flow
             - siege
             - watch
+            - rsync
         cask_apps:
             - imageoptim
             - imagealpha
