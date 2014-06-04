@@ -1,7 +1,6 @@
 groups:
     - bash
     - developer
-    - smartie
 recipes:
     global:
         - dotfiles::sshconfig
