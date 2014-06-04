@@ -25,7 +25,6 @@ recipes:
         - osxdefaults::mail_when_searching_do_not_include_trash
         - osxdefaults::mail_copy_email_addresses_instead_of_names_in_mail
         - osxdefaults::set_computer_name
-        - applications::skylab
 attributes:
     dotfiles:
         vimusers:
@@ -69,8 +68,3 @@ attributes:
             - vagrant
             - hazel
             - sonos
-            - trailer
-    nodejs:
-        apps:
-            - pageres
-            - gh
