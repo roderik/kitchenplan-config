@@ -63,7 +63,6 @@ attributes:
             - spotify
             - bartender
             - vmware-fusion
-            - virtualbox
             - vagrant
             - hazel
             - sonos

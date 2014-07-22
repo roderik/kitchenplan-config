@@ -6,3 +6,4 @@ Cheffile.lock
 .bundle
 .librarian
 Gemfile.lock
+tmp

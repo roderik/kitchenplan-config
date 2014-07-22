@@ -1,14 +1,13 @@
 recipes:
     global:
         - dotfiles::gitconfig
-        - applications::sass
         - applications::ssh_config
         - dotfiles::vim
+        - dotfiles::workspace
         - applications::composer
-        - applications::postgresql
         - applications::mysql
         - applications::php55
-        - dotfiles::workspace
+        - applications::skylab
     mac_os_x:
         - applications::sublime_text_3
         - applications::gnu-tar
