@@ -6,7 +6,7 @@ recipes:
         - dotfiles::workspace
         - applications::composer
         - applications::mysql
-        - applications::php55
+        - applications::php56
         - applications::skylab
     mac_os_x:
         - applications::sublime_text_3
