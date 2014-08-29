@@ -4,7 +4,6 @@ recipes:
         - applications::ssh_config
         - dotfiles::vim
         - dotfiles::workspace
-        - applications::composer
         - applications::mysql
         - applications::php56
         - applications::skylab
