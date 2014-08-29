@@ -48,6 +48,7 @@ attributes:
             - siege
             - watch
             - rsync
+            - composer
         cask_apps:
             - imageoptim
             - imagealpha
