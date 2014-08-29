@@ -61,3 +61,5 @@ attributes:
             - bower
             - grunt
             - grunt-cli
+    gems:
+        - sass
