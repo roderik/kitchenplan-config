@@ -47,10 +47,6 @@ attributes:
             - siege
             - watch
             - rsync
-            - coreutils
-            - findutils
-            - bash
-            - grep
         cask_apps:
             - imageoptim
             - imagealpha
