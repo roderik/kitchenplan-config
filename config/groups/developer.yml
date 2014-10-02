@@ -47,7 +47,10 @@ attributes:
             - siege
             - watch
             - rsync
-            - composer
+            - coreutils
+            - findutils
+            - bash
+            - grep
         cask_apps:
             - imageoptim
             - imagealpha
@@ -63,3 +66,5 @@ attributes:
             - grunt-cli
     gems:
         - sass
+    php-apps:
+        - composer
