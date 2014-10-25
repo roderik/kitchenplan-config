@@ -53,7 +53,7 @@ attributes:
             include_sudoers_d: true
     homebrewalt:
         cask_apps:
-            - onepassword
+            - things
             - dropbox
             - evernote
             - istat-menus
@@ -62,7 +62,5 @@ attributes:
             - totalfinder
             - spotify
             - bartender
-            - vmware-fusion
-            - vagrant
             - hazel
             - sonos
