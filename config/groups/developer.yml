@@ -47,6 +47,8 @@ attributes:
             - siege
             - watch
             - rsync
+            - mongodb
+            - elasticsearch
         cask_apps:
             - imageoptim
             - imagealpha
@@ -62,5 +64,10 @@ attributes:
             - grunt-cli
     gems:
         - sass
+        - git-up
+        - kstrano
+        - deliver
+        - crafter
     php-apps:
         - composer
+        - php56-mongo

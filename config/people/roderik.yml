@@ -25,6 +25,43 @@ recipes:
         - osxdefaults::mail_copy_email_addresses_instead_of_names_in_mail
         - osxdefaults::set_computer_name
 attributes:
+    sublime_text_packages:
+        -
+            name: SideBarEnhancements
+            source: https://github.com/titoBouzout/SideBarEnhancements
+            branch: st3
+        -
+            name: GitGutter
+            source: https://github.com/jisaacks/GitGutter.git
+            branch: master
+        -
+            name: SCSS
+            source: https://github.com/MarioRicalde/SCSS.tmbundle.git
+            branch: SublimeText2
+        -
+            name: BracketHighlighter
+            source: https://github.com/facelessuser/BracketHighlighter.git
+            branch: ST3
+        -
+            name: PHP-Twig
+            source: https://github.com/Anomareh/PHP-Twig.tmbundle.git
+            branch: master
+        -
+            name: Theme - Aqua
+            source: https://github.com/cafarm/aqua-theme.git
+            branch: master
+        -
+            name: Base16
+            source: https://github.com/chriskempson/base16-textmate.git
+            branch: master
+        -
+            name: ApplySyntax
+            source: https://github.com/facelessuser/ApplySyntax.git
+            branch: ST3
+        -
+            name: Theme - Flatland
+            source: git://github.com/thinkpixellab/flatland.git
+            branch: master
     dotfiles:
         vimusers:
             - root
@@ -53,6 +90,7 @@ attributes:
             include_sudoers_d: true
     homebrewalt:
         cask_apps:
+            - google-drive
             - things
             - dropbox
             - evernote
@@ -64,3 +102,11 @@ attributes:
             - bartender
             - hazel
             - sonos
+            - caffeine
+            - tower
+            - vlc
+            - handbrake
+            - slack
+            - flashlight
+            - couleurs
+            - cord
