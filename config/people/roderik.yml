@@ -109,4 +109,5 @@ attributes:
             - slack
             - flashlight
             - couleurs
+            - vagrant-manager
             - cord
