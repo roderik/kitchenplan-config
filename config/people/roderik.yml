@@ -23,6 +23,7 @@ recipes:
         - osxdefaults::menu_show_clock_with_date
         - osxdefaults::mail_when_searching_do_not_include_trash
         - osxdefaults::mail_copy_email_addresses_instead_of_names_in_mail
+        - osxdefaults::use_dark_menu_bar_and_dock
         - osxdefaults::set_computer_name
 attributes:
     sublime_text_packages:
@@ -81,7 +82,7 @@ attributes:
         name: Roderik van der Veer
         email: roderik.van.der.veer@kunstmaan.be
     osxdefaults:
-        computername: Mir
+        computername: Spektr
     authorization:
         sudo:
             users:
@@ -111,3 +112,7 @@ attributes:
             - couleurs
             - vagrant-manager
             - cord
+            - vagrant
+            - vmware-fusion
+            - virtualbox
+            - evernote
