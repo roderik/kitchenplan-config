@@ -48,8 +48,8 @@ attributes:
             source: https://github.com/Anomareh/PHP-Twig.tmbundle.git
             branch: master
         -
-            name: Theme - Aqua
-            source: https://github.com/cafarm/aqua-theme.git
+            name: Theme - Soda
+            source: https://github.com/buymeasoda/soda-theme/
             branch: master
         -
             name: Base16
