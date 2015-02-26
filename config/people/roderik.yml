@@ -63,6 +63,8 @@ attributes:
             name: Theme - Flatland
             source: git://github.com/thinkpixellab/flatland.git
             branch: master
+    sublime_text:
+        theme: "Soda Dark 3.sublime-theme"
     dotfiles:
         vimusers:
             - root
