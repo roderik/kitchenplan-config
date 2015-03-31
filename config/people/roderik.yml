@@ -84,7 +84,7 @@ attributes:
         name: Roderik van der Veer
         email: roderik.van.der.veer@kunstmaan.be
     osxdefaults:
-        computername: Spektr
+        computername: spektr
     authorization:
         sudo:
             users:
