@@ -47,14 +47,11 @@ attributes:
             - siege
             - watch
             - rsync
-            - mongodb
-            - elasticsearch
         cask_apps:
             - imageoptim
             - imagealpha
-            - phpstorm
+            - phpstorm-eap
             - sequel-pro
-            - sourcetree
     nodejs:
         apps:
             - uglify-js
@@ -62,6 +59,7 @@ attributes:
             - bower
             - grunt
             - grunt-cli
+            - gulp
     gems:
         - sass
         - git-up
@@ -70,4 +68,3 @@ attributes:
         - crafter
     php-apps:
         - composer
-        - php56-mongo
