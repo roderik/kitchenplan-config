@@ -94,9 +94,7 @@ attributes:
     homebrewalt:
         cask_apps:
             - google-drive
-            - things
             - dropbox
-            - evernote
             - istat-menus
             - kaleidoscope
             - alfred
@@ -113,7 +111,6 @@ attributes:
             - flashlight
             - couleurs
             - vagrant-manager
-            - cord
             - vagrant
             - vmware-fusion
             - virtualbox
