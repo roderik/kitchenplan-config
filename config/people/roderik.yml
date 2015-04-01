@@ -60,8 +60,8 @@ attributes:
             source: https://github.com/facelessuser/ApplySyntax.git
             branch: ST3
         -
-            name: Theme - Flatland
-            source: git://github.com/thinkpixellab/flatland.git
+            name: DocBlockr
+            source: https://github.com/spadgos/sublime-jsdocs.git
             branch: master
     sublime_text:
         theme: "Soda Dark 3.sublime-theme"
