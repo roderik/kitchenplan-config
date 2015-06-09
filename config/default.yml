@@ -5,6 +5,9 @@ recipes:
         - homebrewalt::default
         - nodejs::default
         - drivers::xerox550
+        - drivers::samsung_ml3470
+        - drivers::samsung_clx4190
+        - drivers::xerox_phaser_6180
         - osxdefaults::finder_small_sidebar_icon_size
         - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
         - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
@@ -13,3 +16,30 @@ recipes:
 attributes:
     drivers:
         xerox: 10.0.40.60
+        samsung_clx4190:
+            -
+                name: Samsung-Tafel
+                location: Werkzone ter hoogte van de Tafel
+                ip: 10.0.40.66
+        samsung_ml3470:
+            -
+                name: Samsung-Knutselkot
+                location: Werkzone ter hoogte van het knutselkot
+                ip: 10.0.40.62
+            -
+                name: Samsung-Aula
+                location: Werkzone ter hoogte van de aula
+                ip: 10.0.40.63
+            -
+                name: Samsung-Roeland
+                location: Bureau Roeland
+                ip: 10.0.40.64
+            -
+                name: Samsung-Toren
+                location: Bureau Roeland
+                ip: 10.0.40.64                
+        xerox_phaser_6180:
+            -
+                name: Xerox-Sylvie
+                location: Bureau Sylvie
+                ip: 10.0.40.61
