@@ -1,9 +1,9 @@
 recipes:
     global:
-        - dotfiles::bash_it
+        - dotfiles::bashrc
         - dotfiles::inputrc
         - applications::bash
 attributes:
     homebrewalt:
         apps:
-            - bash-completion
+            - bash-completion2
