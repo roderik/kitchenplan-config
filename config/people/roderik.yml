@@ -2,36 +2,25 @@ groups:
     - bash
     - developer
 recipes:
-    global:
-        - dotfiles::sshconfig
     mac_os_x:
-        - applications::omnigraffle
-        - applications::launchrocket
         - sudoalt::default
         - osxdefaults::dock_automatically_hide_and_show_the_dock
-        - osxdefaults::dock_do_not_animate_opening_applications_from_the_dock
-        - osxdefaults::dock_enable_spring_loading_for_all_dock_items
-        - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
         - osxdefaults::dock_minimize_to_application
         - osxdefaults::dock_set_the_icon_size_of_dock_items_to_36_pixels
         - osxdefaults::dock_show_indicator_lights_for_open_applications_in_the_dock
         - osxdefaults::dock_position_the_dock_on_the_left_side
-        - osxdefaults::dock_enable_highlight_hover_effect_for_the_grid_view_of_a_stack
         - osxdefaults::dock_remove_the_animation_when_hiding_showing_the_dock
         - osxdefaults::dock_remove_the_auto-hiding_dock_delay
         - osxdefaults::menu_add_battery_percentage
         - osxdefaults::menu_show_clock_with_date
         - osxdefaults::mail_when_searching_do_not_include_trash
         - osxdefaults::mail_copy_email_addresses_instead_of_names_in_mail
-        - osxdefaults::use_dark_menu_bar_and_dock
         - osxdefaults::set_computer_name
 attributes:
     dotfiles:
         vimusers:
             - root
             - roderik
-        kdeploy:
-            hostname: dev
         vim:
             bundle:
                 - sleuth: git://github.com/tpope/vim-sleuth.git
@@ -45,7 +34,7 @@ attributes:
         name: Roderik van der Veer
         email: roderik.van.der.veer@kunstmaan.be
     osxdefaults:
-        computername: spektr
+        computername: Spektr
     authorization:
         sudo:
             users:
@@ -56,25 +45,13 @@ attributes:
         cask_apps:
             - google-drive
             - dropbox
-            - istat-menus
             - kaleidoscope
             - alfred
-            - totalfinder
             - spotify
             - bartender
             - hazel
             - sonos
-            - caffeine
+            - keepingyouawake
             - tower
             - vlc
-            - handbrake
             - slack
-            - flashlight
-            - couleurs
-            - vagrant-manager
-            - vagrant
-            - vmware-fusion
-            - virtualbox
-            - evernote
-            - superduper
-            - microsoft-office
