@@ -1,5 +1,6 @@
 recipes:
     global:
+        - applications::homebrew-bash
         - dotfiles::bashrc
         - dotfiles::inputrc
         - applications::bash
