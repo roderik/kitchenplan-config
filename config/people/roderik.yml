@@ -44,6 +44,7 @@ attributes:
     homebrewalt:
         cask_apps:
             - google-drive
+            - istat-menus
             - dropbox
             - kaleidoscope
             - alfred
