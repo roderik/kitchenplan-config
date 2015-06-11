@@ -55,3 +55,4 @@ attributes:
             - tower
             - vlc
             - slack
+            - mailplane
